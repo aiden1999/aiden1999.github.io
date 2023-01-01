@@ -1,3 +1,23 @@
 body {
     background-color: #282a36;
 }
+
+p {
+    color: #f8f8f2;
+}
+
+h1 {
+    color: #8be9fd;
+}
+
+h2 {
+    color: #50fa7b;
+}
+
+h3 {
+    color: #ffb86c;
+}
+
+a {
+    color: #ff79c6;
+}
