@@ -2,7 +2,7 @@ body {
     background-color: #282a36;
 }
 
-p {
+p, li {
     color: #f8f8f2;
 }
 
