@@ -1,6 +1,6 @@
 body {
     background-color: #282a36;
-    font: "arial";
+    font-family: "JetBrains Mono", "Lucida Console", monospace;
 }
 
 p, li {
