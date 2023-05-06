@@ -1,3 +1,8 @@
+.heading {
+    margin: auto;
+    text-align: center;
+}
+
 body {
     background-color: #2e3440;
     font-family: "JetBrains Mono", "Lucida Console", monospace;
@@ -9,6 +14,7 @@ p, li {
 
 h1 {
     color: #eceff4;
+    font-size: 72px;
 }
 
 h2 {
