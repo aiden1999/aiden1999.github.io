@@ -1,30 +1,58 @@
 .heading {
-    margin: auto;
-    text-align: center;
+  margin: auto;
+  text-align: center;
+}
+
+.command-line {
+  font-size: 28px;
+  padding-left: 30px;
+}
+
+.sh-command {
+  color: #a3be8c;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navigation-item {
+  font-size: 28px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #81a1c1;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #81a1c1;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.text-section {
+  margin: 40px;
+  width: calc(100% - 80px);
+  background-color: #434c5e;
+  box-shadow: 0px 0px 5px 2px rgba(59, 66, 82, 1);
+  padding: 30px;
 }
 
 body {
-    background-color: #2e3440;
-    font-family: "JetBrains Mono", "Lucida Console", monospace;
+  background-color: #2e3440;
+  font-family: "JetBrains Mono", "Lucida Console", monospace;
 }
 
-p, li {
-    color: #eceff4;
-}
-
-h1 {
-    color: #eceff4;
-    font-size: 72px;
-}
-
-h2 {
-    color: #eceff4;
-}
-
-h3 {
-    color: #eceff4;
-}
-
-a {
-    color: #88c0d0;
+p,
+li {
+  color: #eceff4;
+  font-size: 20px;
 }
