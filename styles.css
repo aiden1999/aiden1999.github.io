@@ -1,15 +1,21 @@
-.heading {
-  margin: auto;
-  text-align: center;
+.terminal-window {
+  background-color: #2e3440e5;
+  backdrop-filter: blur(10px);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .command-line {
   font-size: 28px;
-  padding-left: 30px;
 }
 
 .sh-command {
   color: #a3be8c;
+}
+
+.sh-directory {
+  color: #81a1c1;
 }
 
 .navigation {
@@ -61,8 +67,11 @@
 }
 
 body {
-  background-color: #2e3440;
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
   font-family: "JetBrains Mono", "Lucida Console", monospace;
+  margin: 0px;
 }
 
 p,
