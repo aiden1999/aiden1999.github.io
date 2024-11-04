@@ -11,7 +11,7 @@ body {
 p,
 li {
     color: #eceff4;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .terminal-window {
@@ -78,18 +78,28 @@ footer {
     text-decoration: underline;
 }
 
+#contact-link:hover #command-input-3 {
+    color: #ff0000;
+}
+
 /* Main body text (appears as md file viewed with cat) */
 
 .info-div {
-    margin: 40px;
-    width: calc(100% - 140px);
-    background-color: #434c5e;
-    box-shadow: 0px 0px 5px 2px rgba(59, 66, 82, 1);
-    padding: 30px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 28px;
 }
 
-.info-text {
-    margin: 0px;
+#info-text-top {
+    margin-top: 0;
+}
+
+#info-text-bottom {
+    margin-bottom: 0;
+}
+
+.md-h1 {
+    color: #88c0d0;
 }
 
 /* Command line */
@@ -103,7 +113,7 @@ footer {
 .command-prompt {
     font-size: 28px;
     margin: 0px;
-    color: #eceff4;
+    color: #d8dee9;
     animation-name: text-appears;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -167,7 +177,7 @@ footer {
     }
 
     to {
-        width: 128px;
+        width: 136px;
     }
 }
 

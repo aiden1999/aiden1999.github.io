@@ -12,9 +12,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
     <link rel="manifest" href="/images/favicon/site.webmanifest" />
     <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <script type="text/javascript" src="scripts.js"></script>
     <div class="terminal-window">
         <header>
             <div class="command-line">
@@ -32,15 +37,18 @@
             <ul class="navigation">
                 <li class="navigation-item">
                     <i class="nf nf-md-folder"></i>
-                    <a class="navigation-link" href="https://aiden1999.github.io/contact.html">contact/</a>
+                    <a class="navigation-link" id="contact-link" onmouseover="changeText()"
+                        href="https://aiden1999.github.io/contact.html">contact/</a>
                 </li>
                 <li class="navigation-item">
                     <i class="nf nf-md-folder"></i>
-                    <a class="navigation-link" href="https://aiden1999.github.io/experience.html">experience/</a>
+                    <a class="navigation-link" id="experience-link"
+                        href="https://aiden1999.github.io/experience.html">experience/</a>
                 </li>
                 <li class="navigation-item">
                     <i class="nf nf-md-folder"></i>
-                    <a class="navigation-link" href="https://aiden1999.github.io/projects.html">projects/</a>
+                    <a class="navigation-link" id="projects-link"
+                        href="https://aiden1999.github.io/projects.html">projects/</a>
                 </li>
             </ul>
             <div class="command-line">
@@ -57,8 +65,17 @@
             </div>
         </header>
         <div class="info-div">
+            <p class="md-h1" id="info-text-top">
+                # Hi there...
+            </p>
             <p class="info-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                I'm an aspiring developer who has just graduated with a BSc in Computer Science and Maths, and I'm
+                available to hire!
+                I'm currently based in the UK but I'm looking to move to the Netherlands on a permanent basis.
+            </p>
+            <p class="info-text" id="info-text-bottom">
+                Feel free to explore my site and take a look at my projects and experience. Don't hesitate to contact
+                me!
             </p>
         </div>
         <div class="current-command-line">
@@ -67,6 +84,7 @@
                 <span class="sh-directory">~</span>
                 <span>$ </span>
             </span>
+            <span id="command-input-3">some text</span>
         </div>
     </div>
     <footer>
@@ -78,11 +96,12 @@
             <a class="footer-link"
                 href="https://www.pickpik.com/landscape-mountain-peak-mountains-nature-outdoors-pinnacle-132302">Background
                 image</a>
-            | Icons from
+            | <i class="nf nf-fa-icons"></i> Icons from
             <a class="footer-link" href="https://www.nerdfonts.com/">Nerd Fonts</a>
-            | Built in
+            | <i class="nf nf-fa-code"></i> Built in
             <i class="nf nf-linux-archlinux"></i> with
-            <i class="nf nf-linux-neovim"></i> | This website is
+            <i class="nf nf-linux-neovim"></i>
+            | <i class="nf nf-md-web"></i> This website is
             <a class="footer-link" href="https://github.com/aiden1999/aiden1999.github.io">open source</a>.
         </p>
     </footer>
